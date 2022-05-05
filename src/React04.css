@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --color-primary-bg: #282D35;
+    --color-secondary-bg: #21222A;
+    --color-logo: #00D8FF;
+    --color-text: #DEEBF8;
+}
+body{
+    background: var(--color-primary-bg);
+}
+/* Start Nav */
+img{
+    width: 4vmin;
+    margin: 0 .3rem 0 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-secondary-bg);
+}
+nav a{
+    display: flex;
+    align-items: center;
+    color: var(--color-logo);
+    text-decoration: none;
+    font-size: 4vmin;
+    font-weight: 600;
+}
+nav p{
+    font-size: 3vmin;
+    color: var(--color-text);
+}
+
+/* End Nav */
+/* Start Main */
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+main h1{
+    font-size: 5vmin;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 1rem 0;
+}
+main ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:  0 0 1rem 1.5rem;
+    list-style: none;
+}
+main ul li{
+    line-height: 3;
+    font-size: 3vmin;
+    color: var(--color-text);
+    text-decoration-color: var(--color-logo);
+}
+main ul li::before{
+    content: ' ';
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: var(--color-logo);
+    display: inline-block;
+    margin: 0 1rem 0 0;
+
+}
+
+/* End Main*/

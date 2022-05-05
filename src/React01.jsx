@@ -1,3 +1,4 @@
+import React from "react";
 /*
 Challenge: Starting from scratch, build and render the 
 HTML for our section project. Check the Google slide for 
@@ -13,13 +14,10 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 
-const page = (
-  <div>
-    <img
-      src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
-      width='40'
-      alt='React logo'
-    ></img>
+const Page = () => {
+  return (
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="40px" />
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
@@ -28,5 +26,6 @@ const page = (
       <li>Is Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
-);
-ReactDOM.render(page, document.querySelector('.React'));
+  );
+}
+export default Page;
