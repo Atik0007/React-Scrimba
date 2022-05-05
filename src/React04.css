@@ -45,6 +45,9 @@ main{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    background-image: url(./components/img/Group.svg);
+    background-repeat:no-repeat; 
+    background-position: right 75%;
 }
 main h1{
     font-size: 5vmin;
@@ -73,7 +76,6 @@ main ul li::before{
     background-color: var(--color-logo);
     display: inline-block;
     margin: 0 1rem 0 0;
-
 }
 
 /* End Main*/
