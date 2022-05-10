@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+$main-color: #F55A5A;
+$color-gray: #918E9B;
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+.navbar{
+    background-color: $main-color;
+    color: $color-white;
+    height: 3.438em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .navbar-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.904em;
+        .navbar-logo{
+            width: 1.500em;
+            margin: 0.438em;
+        }
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29.375em;
+    .card-image{
+        padding: 1.188em;
+        img{
+            width: 7.813em;
+        }
+    }
+    .card-content{
+        .media-content{
+            display: flex;
+            align-items: center;
+            padding-bottom: 0.438em;
+            .location{
+                font-size: 0.640em;
+                letter-spacing: 0.17em;
+                font-weight: 400;
+                img{
+                    width: 0.438em;
+                    margin-right: 0.250em;
+                }
+            }
+            a{
+                color: $color-gray;
+                font-size: 0.640em;
+                font-weight: 400;
+                margin: 0.750em ;
+            }
+        }
+        .content{
+            h2{
+                font-size: 1.563em;
+                font-weight: 700;
+                padding: 0 0 0.875em 0;
+            }
+            .startDate,.endDate{
+                font-weight: 700;
+                font-size: 0.640em;
+            }
+            p{
+                padding: 0.563em 0;
+                font-size: 0.640em;
+                font-weight: 400;
+                line-height: 1.5;
+
+            }
+        }
+    }
+}
+

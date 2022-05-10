@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  height: 3.438em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.904em;
+}
+
+.navbar .navbar-item .navbar-logo {
+  width: 1.500em;
+  margin: 0.438em;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29.375em;
+}
+
+.card .card-image {
+  padding: 1.188em;
+}
+
+.card .card-image img {
+  width: 7.813em;
+}
+
+.card .card-content .media-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0.438em;
+}
+
+.card .card-content .media-content .location {
+  font-size: 0.640em;
+  letter-spacing: 0.17em;
+  font-weight: 400;
+}
+
+.card .card-content .media-content .location img {
+  width: 0.438em;
+  margin-right: 0.250em;
+}
+
+.card .card-content .media-content a {
+  color: #918E9B;
+  font-size: 0.640em;
+  font-weight: 400;
+  margin: 0.750em;
+}
+
+.card .card-content .content h2 {
+  font-size: 1.563em;
+  font-weight: 700;
+  padding: 0 0 0.875em 0;
+}
+
+.card .card-content .content .startDate, .card .card-content .content .endDate {
+  font-weight: 700;
+  font-size: 0.640em;
+}
+
+.card .card-content .content p {
+  padding: 0.563em 0;
+  font-size: 0.640em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=main.css.map */
