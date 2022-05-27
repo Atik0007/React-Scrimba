@@ -1,0 +1,16 @@
+-mkdir client // create client file 
+-mkdir server // create server file 
+
+-cd client // go to the client folder
+-npx create-react-app . // create react app folders
+-delete App.test.js - index.css - logo.svg - setupTests.js 
+
+
+-cd .. // go to the main folder
+
+-cd server // go to the server folder 
+-npm init -y // install package.json file
+-npm i express dotenv mysql2 // install dependencies
+-npm i -D nodemon prettier eslint morgan
+
+-create 'server.js' file // change "main": "index.js" to "main": "server.js" in the package.json file
