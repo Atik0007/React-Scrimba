@@ -6,9 +6,9 @@ const newUser = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     console.log(email, password);
-    /* if (!email || !password) {
+    if (!email || !password) {
       throw generateError(400, 'Missing parameters');
-    } */
+    }
 
     const idUser = await insertUser(email, password);
 

@@ -10,7 +10,15 @@
 
 -cd server // go to the server folder 
 -npm init -y // install package.json file
--npm i express dotenv mysql2 // install dependencies
 -npm i -D nodemon prettier eslint morgan
+-npm i express dotenv myzsql2 // install dependencies
+-npm i bcrypt // hach the password
+-mkdir controllers
+-mkdir routes
+-mkdir database
+-npm i mongoose // mongo database
 
--create 'server.js' file // change "main": "index.js" to "main": "server.js" in the package.json file
+-create app.js  -config.js - index.js file
+
+cd .. // go to the main folder
+- create .env file

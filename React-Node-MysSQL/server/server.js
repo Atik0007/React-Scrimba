@@ -12,8 +12,11 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 
 const newUser = require('./controllers/newUser');
+const getUserId = require('./controllers/getUserId');
 
 app.post('/users', newUser);
+
+app.get('/users/:idUser', getUserId);
 
 app.use((err, req, res, next) => {
   console.error(err);
